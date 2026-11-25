@@ -1,0 +1,23 @@
+# Python & Notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Données brutes SEED (ne jamais versionner)
+data/*
+!data/README.md
+!data/*.py
+*.mat
+*.set
+*.edf
+*.fif
+*.h5
+*.pkl
+
+# Système & VS Code
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
